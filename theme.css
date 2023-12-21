@@ -3,8 +3,50 @@
 
 ######################################################################################################################*/
 
+.headroom--unpinned {
+  -webkit-transform: translateY(-100%);
+  transform: translateY(-100%);
+}
+
+.headroom--pinned {
+  -webkit-transform: translateY(0);
+  transform: translateY(0);
+}
+
+.headroom {
+  transition: -webkit-transform 0.2s linear;
+  transition: transform 0.2s linear;
+  transition: transform 0.2s linear, -webkit-transform 0.2s linear;
+  will-change: transform;
+}
+
+.emby-button-foreground::after {
+  content: "";
+  height: 2px;
+  width: 0%;
+  background: var(--buttons-link) !important;
+  position: absolute;
+  bottom: -35%;
+  left: 50%;
+  transform: translateX(-50%);
+  transition: width 0.15s ease-in-out;
+}
+
+.emby-tab-button:hover .emby-button-foreground::after {
+  width: 75%;
+}
+
+.libraryPage:not(.noSecondaryNavPage) {
+  padding-top: 5em !important;
+}
+
+.layout-mobile .libraryPage:not(.noSecondaryNavPage) {
+  padding-top: 4em !important;
+}
+
 .layout-desktop .detailLogo {
   left: 5%;
+  top: 17%;
   background-position: top left;
 }
 
