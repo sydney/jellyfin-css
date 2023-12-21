@@ -1,39 +1,4 @@
-/* LOGIN Section */
-/* Narrow the login form */
-#loginPage .readOnlyContent,
-#loginPage form {
-  max-width: 22em;
-}
-
-/* Hide "please login" text, margin is to prevent login form moving too far up */
-#loginPage h1 {
-  display: none;
-}
-
-
-#loginPage .padded-left.padded-right.padded-bottom-page {
-  margin-top: 50px;
-}
-
-/* Hide "manual" and "forgot" buttons */
-#loginPage .raised.cancel.block.btnManual.emby-button {
-  display: none;
-}
-#loginPage .raised.cancel.block.btnForgotPassword.emby-button {
-  display: none;
-}
-
-.backgroundContainer,
-.dialog,
-html {
-  background-color: #181818;
-}
-
-/*#####################################################################################################################
-            LAYOUT DESKTOP
-
-######################################################################################################################*/
-
+/* Desktop item information theming */
 .layout-desktop .detailLogo {
   left: 5%;
   background-position: top left;
@@ -51,7 +16,7 @@ html {
 }
 
 .layout-desktop .itemBackdrop:after {
-  background: url("../../themes/mytheme/mask.png");
+  background: url("https://raw.githubusercontent.com/sydney/jellyfin-css/main/images/mask.png");
   background-size: cover;
   width: 100%;
   height: 100%;
@@ -166,12 +131,7 @@ html {
   width: 100%;
 }
 
-
-
-/*#####################################################################################################################
-            LAYOUT MOBILE
-
-######################################################################################################################*/
+/* Mobile item information theming */
 
 .layout-mobile .headerHomeButton,
 .layout-mobile .headerCastButton,
@@ -374,17 +334,9 @@ html {
   margin-top: 1em;
 }
 
-
-
 /********************************************************************************************************
       general layout
 ********************************************************************************************/
-/* cast & crew circular */
-#castContent .cardImageContainer.coveredImage.cardContent.itemAction.lazy.non-blurhashable.lazy-image-fadein-fast,
-#castContent .cardImageContainer.coveredImage.defaultCardBackground.defaultCardBackground1.cardContent.itemAction {
-  border-radius: 50%;
-}
-
 #castContent .cardPadder.cardPadder-overflowPortrait.lazy-hidden-children,
 #castContent .cardPadder-mixedPortrait, 
 #castContent .cardPadder-overflowPortrait, 
@@ -398,9 +350,5 @@ html {
   bottom: 0;
   position: absolute;
   left: 38%;
-}
-
-#castContent .cardOverlayContainer {
-  border-radius: 50%;
 }
 
