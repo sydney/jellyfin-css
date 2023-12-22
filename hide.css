@@ -60,6 +60,10 @@ div.nextUpSection {
 }
 
 /* Hide ratings */
-div.starRatingContainer {
+.starIcon, 
+.starRatingContainer, 
+.mediaInfoCriticRatingFresh, 
+.mediaInfoCriticRatingRotten, 
+.mediaInfoCriticRating {
 	display: none;
 }
