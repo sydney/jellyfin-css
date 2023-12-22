@@ -58,3 +58,8 @@ div.nextUpSection {
 .btnNextChapter {
 	display: none;
 }
+
+/* Hide ratings */
+div.starRatingContainer {
+  display: none;
+}
