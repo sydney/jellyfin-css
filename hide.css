@@ -1,0 +1,60 @@
+/* Hide unwatched episode count */
+.countIndicator {
+	display: none;
+}
+
+/* Hide watched status */
+.playedIndicator {
+	display: none;
+}
+
+/* Hide shuffle */
+.btnShuffle {
+	display: none;
+}
+
+/* Hide writers */
+.writersGroup {
+	display: none;
+}
+
+/* Hide series airtime */
+#seriesAirTime {
+	display: none;
+}
+
+/* Hide tags */
+.itemTags {
+	display: none;
+}
+
+/* Hide external database links */
+.itemExternalLinks {
+	display: none;
+}
+
+/* Hide "Next Up" section */
+div.nextUpSection {
+	display: none;
+}
+
+/* Hide "More From Season" section */
+.moreFromSeasonSection {
+	display: none;
+}
+
+/* Hide birth place on actor page */
+#itemBirthLocation {
+	display: none;
+}
+
+/* Hide episodes on actor page */
+.verticalSection[data-type="Episode"] {
+	display: none;
+}
+
+/* Hide chapter skip buttons on video player */
+.btnPreviousChapter,
+.btnNextChapter {
+	display: none;
+}
