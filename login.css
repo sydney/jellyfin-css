@@ -1,0 +1,24 @@
+/* Narrow the login form, size according to display size */
+#loginPage .readOnlyContent,
+#loginPage form {
+  max-width: 22em;
+}
+
+/* Hide "please login" text, margin is to prevent login form moving too far up */
+#loginPage h1 {
+  display: none;
+}
+#loginPage .padded-left.padded-right.padded-bottom-page {
+  margin-top: 8em;
+}
+
+/* Hide manual login button */
+#loginPage .raised.cancel.block.btnManual.emby-button {
+  display: none;
+}
+  
+/* Change login background */
+#loginPage {
+  background: url(https://raw.githubusercontent.com/sydney/jellyfin-css/main/images/home-backdrop.jpg) !important; 
+  background-size: cover !important;
+}
