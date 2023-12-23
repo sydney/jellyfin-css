@@ -1,3 +1,7 @@
+.mediaInfoCriticRating {
+  display: none !important;
+}
+
 /* Theme Colours */
 :root {
   --rounding: 10px;
