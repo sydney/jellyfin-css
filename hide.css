@@ -10,7 +10,7 @@
 
 /* Hide shuffle */
 .btnShuffle {
-	display: none;
+	display: none !important;
 }
 
 /* Hide writers */
@@ -58,3 +58,8 @@ div.nextUpSection {
 .btnNextChapter {
 	display: none;
 }
+
+/* Hide rating */
+div.starRatingContainer {
+	display: none !important;
+} 
