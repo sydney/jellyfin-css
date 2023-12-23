@@ -192,6 +192,11 @@ html {
   background-color: #181818;
 }
 
+.withSectionTabs .backgroundContainer {
+  background: url('https://raw.githubusercontent.com/sydney/jellyfin-css/main/images/bg.jpg'); 
+  background-size: cover;
+}
+
 /*#####################################################################################################################
             LAYOUT DESKTOP
 
