@@ -193,9 +193,13 @@ html {
 }
 
 /* Sets static backdrop on homepages */
-.withSectionTabs .backgroundContainer {
+.withSectionTabs .backgroundContainer,
+.noSecondaryNavPage .backgroundContainer {
   background: url('https://raw.githubusercontent.com/sydney/jellyfin-css/main/images/home-backdrop.jpg'); 
   background-size: cover;
+}
+.noSecondaryNavPage .btnPlay {
+  display: none !important;
 }
 /*#####################################################################################################################
             LAYOUT DESKTOP
