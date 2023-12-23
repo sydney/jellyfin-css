@@ -814,6 +814,7 @@ div[data-role="controlgroup"] a[data-role="button"]:last-child {
 
 .raised.homeLibraryButton {
   transition: filter 1s;
+  background: rgba(0, 0, 0, 0.3) !important;
 }
 
 .homeLibraryButton {
