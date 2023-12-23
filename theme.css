@@ -194,11 +194,11 @@ html {
 
 /* Sets static backdrop on homepages */
 .withSectionTabs .backgroundContainer,
-.noSecondaryNavPage .backgroundContainer {
+#tvRecommendedPage {
   background: url('https://raw.githubusercontent.com/sydney/jellyfin-css/main/images/home-backdrop.jpg'); 
   background-size: cover;
 }
-.noSecondaryNavPage .btnPlay {
+#tvRecommendedPage .btnPlay {
   display: none !important;
 }
 /*#####################################################################################################################
