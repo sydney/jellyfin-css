@@ -582,11 +582,6 @@ html {
   flex-direction: row;
 }
 
-.layout-mobile .btnShuffle,
-.layout-desktop .btnShuffle {
-  display: block;
-}
-
 .layout-mobile .material-icons.detailButton-icon.play_arrow {
   color: black;
 }
