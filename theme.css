@@ -1,11 +1,3 @@
-.btnShuffle {
-  display: none !important;
-}
-
-div.starRatingContainer {
-  display: none !important;
-}
-
 /* Theme Colours */
 :root {
   --rounding: 10px;
