@@ -413,41 +413,20 @@ html {
 .skinHeader .emby-tab-button:hover {
   color: var(--buttons-link);
 }
-
-/* ultrachromic */
-.skinHeader-withBackground {
-    background-color: transparent;
+.skinHeader.semiTransparent {
+  background-color: rgba(0, 0, 0, 0);
 }
 
-/*Pages the have single unit height taskbar*/
-@media all and (min-width: 100em){
-  #indexPage,
-  #moviesPage,
-  #tvRecommendedPage,
-  #musicRecommendedPage {
-    margin-top: 68px;
-    padding-top: 0px !important;
-    overflow-y: scroll;
-  }
+.skinHeader.focuscontainer-x.skinHeader-withBackground.skinHeader-blurred {
+  background: none;
+  background-color: rgba(0, 0, 0, 0);
 }
 
-/*Pages the have two unit height taskbar*/
-@media all and (max-width: 100em){
-  #indexPage,
-  #moviesPage,
-  #tvRecommendedPage,
-  #musicRecommendedPage {
-    margin-top: 130px;
-    padding-top: 0.5em !important;
-    overflow-y: scroll;
-  }
+.skinHeader.focuscontainer-x.skinHeader-withBackground.skinHeader-blurred.noHomeButtonHeader {
+  background: none;
+  background-color: rgba(0, 0, 0, 0);
 }
 
-.force-scroll {
-    overflow-y: auto;
-    overflow-x: auto;
-}
-/* ultrachromic add end*/
 .emby-input:focus,
 .emby-textarea:focus {
   border-color: var(--buttons);
