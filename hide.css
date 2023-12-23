@@ -8,11 +8,6 @@
 	display: none;
 }
 
-/* Hide shuffle */
-.btnShuffle {
-	display: none !important;
-}
-
 /* Hide writers */
 .writersGroup {
 	display: none;
@@ -58,34 +53,3 @@ div.nextUpSection {
 .btnNextChapter {
 	display: none;
 }
-
-/* Hide rating */
-.mediaInfoItem {
-	margin: 0 0 0 1em !important;
-}
-.mediaInfoItem:first-child {
-	margin-left: 0 !important;
-}
-.starIcon, 
-.starRatingContainer, 
-.mediaInfoCriticRatingFresh, 
-.mediaInfoCriticRatingRotten, 
-.mediaInfoCriticRating {
-	color: rgba(255,255,255,0); 
-	width: 0; 
-	height: 0; 
-	padding-top: 0; 
-	padding-left: 0; 
-	padding-bottom: 0; 
-	padding-right: 0; 
-	margin-top: 0; 
-	margin-left: 0; 
-	margin-right: 0; 
-	margin-bottom: 0; 
-	background-size: 0; 
-	border: 0; 
-	border-radius: 0; 
-	display: none; 
-	min-height: 0; 
-	font-size: 0;
-} 
