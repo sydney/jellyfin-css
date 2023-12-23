@@ -369,6 +369,7 @@ html {
 }
 
 .layout-desktop .listItem-withContentWrapper {
+  padding-top: 150px;
   align-items: flex-start;
   flex-direction: column;
   width: 32%;
