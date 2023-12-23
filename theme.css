@@ -1248,9 +1248,7 @@ div[data-role="controlgroup"] a[data-role="button"] + a[data-role="button"] {
 .listItemButton:hover,
 .material-icons.info_outline:hover,
 .btnPlayTrailer:hover,
-.btnShuffle:hover,
 .btninfo_outline:hover,
-.shuffle:hover,
 .listItemButton:hover {
   color: #434343 !important;
 }
