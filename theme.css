@@ -193,14 +193,11 @@ html {
 }
 
 /* Sets static backdrop on homepages */
-.withSectionTabs .backgroundContainer,
-.libraryPage.noSecondaryNavPage {
+.withSectionTabs .backgroundContainer {
   background: url('https://raw.githubusercontent.com/sydney/jellyfin-css/main/images/home-backdrop.jpg'); 
   background-size: cover;
 }
-.itemsViewSettingsContainer .btnPlay {
-  display: none !important;
-}
+ 
 /*#####################################################################################################################
             LAYOUT DESKTOP
 
@@ -387,6 +384,8 @@ html {
 .layout-desktop .listItemImage-large {
   height: 16vw;
   width: 100%;
+  z-index: -1;
+  position: relative;
 }
 
 /*#####################################################################################################################
