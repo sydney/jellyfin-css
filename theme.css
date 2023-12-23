@@ -1,4 +1,5 @@
-.mediaInfoCriticRating {
+.mediaInfoCriticRating, 
+.mediaInfoCriticRatingFresh {
   display: none !important;
 }
 
