@@ -384,8 +384,6 @@ html {
 .layout-desktop .listItemImage-large {
   height: 16vw;
   width: 100%;
-  z-index: -1;
-  position: relative;
 }
 
 /*#####################################################################################################################
