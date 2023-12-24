@@ -1619,3 +1619,12 @@ div.starRatingContainer,
 }
 
 .btnShuffle {display:none !important;}
+
+.noSecondaryNavPage:not(.itemDetailPage):not(.metadataEditorPage):not(.userPreferencesPage) { 
+  background: url('https://raw.githubusercontent.com/sydney/jellyfin-css/main/images/bg.jpg'); 
+  background-size: cover;
+}
+
+.noSecondaryNavPage:not(.itemDetailPage) .btnPlay {
+  display: none;
+}
